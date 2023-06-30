@@ -1,0 +1,25 @@
+POSTMAN -Manual Api testing tool
+
+Important sections:
+-Request Bar 
+-History
+-authorozation
+-Headers
+-Body
+-Tests (to write the test cases to validate_
+-Response console(Headers, body,Cookies,Testresults)
+
+Sample test case to validate the status codes :
+	pm.test("To check the page count", function(){
+    var jsonDATA=pm.response.json();
+    pm.expect(jsonDATA.page).is.eql(1)
+});
+
+
+200 -OK (Get response)
+201 -Created (Post response)
+200 -OK (Put response)
+204 - No Content (Delete response)
+
+404 - Not found (resquest cant get the resource in server)
+

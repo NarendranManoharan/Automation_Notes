@@ -1,0 +1,18 @@
+Global Variables:
+======
+By set the global variable , it can be only used throghout the project 
+-Global variables enable you to access data between collections, requests, test scripts, and environments. 
+-Global variables are available throughout a workspace
+
+Environment variables:
+===============
+-enable you to scope your work to different environments, for example local development versus testing or production
+-One environment can be active at a time
+
+Collection variables:
+================
+-set variable in colection level, so it can be used in that collection only
+-Collection variables are available throughout the requests in a collection and are independent of environments. Collection variables don't change based on the selected environment. 
+-Collection variables are suitable if you're using a single environment, for example for auth or URL details.
+
+
