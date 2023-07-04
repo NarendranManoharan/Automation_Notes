@@ -1,16 +1,5 @@
-[
-  {
-    "name": "naren",
-    "job": "tester"
-   },
-  {
-    "name": "bala",
-    "job": "developer"
-   },
-  {
-    "name": "thivakar",
-    "job": "automation tester"
-   }
-  
-  
-]
+{
+    "first_name": "virat",
+    "last_name": "kohli",
+    "email": "virat@gmail.com"
+  }
